@@ -31,6 +31,7 @@ a {
 
 .btn {
   border: none;
+  background-color: aqua;
 }
 
 .search-form input,
@@ -71,19 +72,16 @@ a {
 .info-item {
   display: flex;
   justify-content: center;
-  padding-right: 20px;
   font-size: 18px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .likes {
-  padding-left: 10px;
 }
 
 .load-more {
   width: 200px;
   height: 50px;
-  background-color: blue;
+  background-color: rgb(51, 255, 0);
 }
 
 @media screen and (max-width: 768px) {
